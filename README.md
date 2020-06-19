@@ -1,6 +1,6 @@
 # Petit exemple simple avec curses
 
-Cet exemple vis à montrer un exemple d'utilisation simple mais portable de curses.
+Cet exemple vis à montrer un exemple d'utilisation simple mais portable de curses. Pour aller plus loin avec l'utilisation de curses, voici le [Howto officiel](https://docs.python.org/3/howto/curses.html).
 
 ## Dépendances
 
