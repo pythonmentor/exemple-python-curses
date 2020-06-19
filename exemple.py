@@ -14,8 +14,8 @@ def clear(screen):
     """clear the screen with the chosen default background color."""
     screen.clear()
     height, width = screen.getmaxyx()
-    for y in range(height - 1):
-        screen.addstr(y, 0, " " * width, curses.color_pair(1))
+    text = "\n".join(" " * (width - 1) for _ in range(height - 1))
+    screen.addstr(0, 0, text, curses.color_pair(1))
 
 
 def main(screen):
